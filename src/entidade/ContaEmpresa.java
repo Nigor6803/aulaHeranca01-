@@ -23,7 +23,7 @@ public class ContaEmpresa extends Conta {
 	
 	public void emprestimo(double quantidade) {
 		if (quantidade <= valorDeEmprestimo){
-		colocar(quantidade);
+		saldo += quantidade - 10.0;
 		}
 	}
 }

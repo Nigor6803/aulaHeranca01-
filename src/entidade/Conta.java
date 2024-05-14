@@ -3,7 +3,7 @@ package entidade;
 public class Conta {
 	private Integer conta;
 	private String nome;
-	private Double saldo;
+	protected Double saldo;
 	
 	public Conta(){
 		}
