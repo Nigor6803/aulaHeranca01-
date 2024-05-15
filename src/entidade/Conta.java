@@ -8,7 +8,7 @@ public class Conta {
 	public Conta(){
 		}
 	
-	public Conta(Integer conta, String nome,Double salario) {
+	public Conta(Integer conta, String nome,Double saldo) {
 		this.conta = conta;
 		this.nome = nome;
 		this.saldo = saldo;
